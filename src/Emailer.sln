@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C33F6472-2904-4BDC-A33F-E777743D7ADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailer.Api", "Emailer.Api\Emailer.Api.csproj", "{9A63A2C2-17A9-477C-9161-42F401D46555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailer.Domain", "Emailer.Domain\Emailer.Domain.csproj", "{F47ABE2B-0829-42B7-94D7-118988F1A3AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailer.Business", "Emailer.Business\Emailer.Business.csproj", "{5A050389-F1E2-428A-B0E1-D79261B974B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{75DA76CC-84BF-48AE-8094-F604C38BFD46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailer.Api.Tests", "..\tests\Emailer.Api.Tests\Emailer.Api.Tests.csproj", "{F3E997FE-192F-49C7-B609-DC64046E683A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emailer.Business.Tests", "..\tests\Emailer.Business.Tests\Emailer.Business.Tests.csproj", "{3AA021A4-FCC0-48A9-A990-8AD9C15ED9F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9A63A2C2-17A9-477C-9161-42F401D46555} = {C33F6472-2904-4BDC-A33F-E777743D7ADD}
+		{F47ABE2B-0829-42B7-94D7-118988F1A3AF} = {C33F6472-2904-4BDC-A33F-E777743D7ADD}
+		{5A050389-F1E2-428A-B0E1-D79261B974B6} = {C33F6472-2904-4BDC-A33F-E777743D7ADD}
+		{F3E997FE-192F-49C7-B609-DC64046E683A} = {75DA76CC-84BF-48AE-8094-F604C38BFD46}
+		{3AA021A4-FCC0-48A9-A990-8AD9C15ED9F2} = {75DA76CC-84BF-48AE-8094-F604C38BFD46}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A63A2C2-17A9-477C-9161-42F401D46555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A63A2C2-17A9-477C-9161-42F401D46555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A63A2C2-17A9-477C-9161-42F401D46555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A63A2C2-17A9-477C-9161-42F401D46555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47ABE2B-0829-42B7-94D7-118988F1A3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47ABE2B-0829-42B7-94D7-118988F1A3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47ABE2B-0829-42B7-94D7-118988F1A3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47ABE2B-0829-42B7-94D7-118988F1A3AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A050389-F1E2-428A-B0E1-D79261B974B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A050389-F1E2-428A-B0E1-D79261B974B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A050389-F1E2-428A-B0E1-D79261B974B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A050389-F1E2-428A-B0E1-D79261B974B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3E997FE-192F-49C7-B609-DC64046E683A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E997FE-192F-49C7-B609-DC64046E683A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E997FE-192F-49C7-B609-DC64046E683A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E997FE-192F-49C7-B609-DC64046E683A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AA021A4-FCC0-48A9-A990-8AD9C15ED9F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AA021A4-FCC0-48A9-A990-8AD9C15ED9F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AA021A4-FCC0-48A9-A990-8AD9C15ED9F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AA021A4-FCC0-48A9-A990-8AD9C15ED9F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
